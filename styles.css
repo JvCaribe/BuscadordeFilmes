@@ -1,0 +1,206 @@
+    body {
+        font-family: Arial;
+        color: rgb(216, 213, 213);
+        background: rgb(177, 176, 176);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        padding: 60px 150px;
+    }
+
+    .pesquisa {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .pesquisa input {
+        width: 300px;
+        padding: 10px;
+        border-radius: 8px 0 0 8px;
+        border: none;
+        font-size: 15px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+    }
+    .pesquisa button {
+        padding: 10px 20px;
+        border-radius: 0 8px 8px 0;
+        border: none;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);  
+        /* background-color: #576ff8; */
+        background-color: rgb(75, 74, 73);
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .pesquisa button:hover {
+        background-color:white;
+        color: rgb(75, 74, 73);
+    }
+
+    .meio {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: rgba(0, 0, 0, 0.6);
+        gap: 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+        max-width: 950px;
+        padding: 30px;
+        backdrop-filter: blur(2px);
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .github {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .poster {
+        flex: 0 250px;
+    }
+
+    .poster img {
+        width: 250px;
+        height: 442px;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+
+    .detalhes {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .title {
+        font-size: 2em;
+        font-weight: bold;
+        color: #D32F2F;
+        margin-bottom: 10px;
+    }
+
+    .infos {
+        color: #bbb9b9;
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    .infos span {
+        margin-right: 15px;
+    }
+
+    .sinopse,
+    .diretor {
+        font-size: 1.1em;
+        line-height: 1.6em;
+        background-color: rgba(255, 255, 255, 0.05);
+        padding: 15px;
+        border-radius: 8px;
+        color: #e2dfdf;
+    }
+
+    .premios {
+        font-size: 15px;
+        line-height: 1.6em;
+        background-color: rgba(255, 255, 166, 0.36);
+        padding: 10px 10px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+    }
+
+    .informacoes {
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+
+    .diretor {
+        color: #bbb9b9;
+        font-size: 15px;
+        margin-bottom: 5px;
+        padding: 10px 10px;
+    }
+
+    #linkImdb {
+        background-color: rgb(245, 197, 24);
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 13px;
+        padding: 10px 15px;
+        border-radius: 60px;
+        display: inline-block;
+        text-decoration: none;
+        align-self: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    #linkImdb:hover {
+        background-color: #000000;
+        color: rgb(245, 197, 24);
+    }
+
+    #metascore {
+        width: 31px;
+        height: 31px;
+        vertical-align: middle;
+        padding-right: 5px;
+    }
+
+    #oscar {
+        width: 28px;
+        height: 28px;
+        vertical-align: middle;
+        padding-right: 1px;
+    }
+
+    #imdb {
+        width: 28px;
+        height: 22px;
+        vertical-align: middle;
+        padding-right: 5px;
+    }
+
+    #rottentomatoes {
+        width: 28px;
+        height: 28px;
+        vertical-align: middle;
+        padding-right: 5px;
+    }
+
+    #textoavaliacao {
+        font-size: 1em;
+        margin-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 3px;
+    }
+
+    .avaliacaoimdb,
+    .avaliacaotomatoes {
+        display: flex;
+        align-items: center;
+        margin-left: 35px;
+        gap: 8px;
+    }
+
+    #disponivel {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+    @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+    @import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
